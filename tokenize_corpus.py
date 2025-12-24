@@ -80,7 +80,7 @@ def main():
     ap.add_argument("--no_normalize_yo", action="store_true")
     args = ap.parse_args()
 
-    batch_files = sorted(Path(".").glob(args.glob))
+    batch_files = sorted(Path("../corpus_aviation/").glob(args.glob))
     if not batch_files:
         print(f"Файлов по шаблону {args.glob} не найдено.")
         return
