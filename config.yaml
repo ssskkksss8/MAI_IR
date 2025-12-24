@@ -1,0 +1,15 @@
+db:
+  uri: "mongodb://localhost:27017"
+  name: "transport_corpus"
+  collection: "documents"
+
+logic:
+  delay_sec: 0.5                
+  recrawl_interval_sec: 604800   
+  max_documents: 1000000         
+
+seeds:
+  type: "wikipedia_pages_list"
+  pages_list_path: "C:/Users/user/YandexDisk/corpus_aviation/pages_list.json"
+  base_url: "https://ru.wikipedia.org/wiki/"
+  source_name: "ru.wikipedia.org/transport"

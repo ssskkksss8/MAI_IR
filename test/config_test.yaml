@@ -1,0 +1,15 @@
+db:
+  uri: "mongodb://localhost:27017"
+  name: "transport_corpus_test"
+  collection: "documents"
+
+logic:
+  delay_sec: 0.5                 # можно и 0.2, это не принципиально
+  recrawl_interval_sec: 60       # 1 минута, чтобы быстро проверить переобкачку
+  max_documents: 50              # с запасом, но маленькое число
+
+seeds:
+  type: "wikipedia_pages_list"
+  pages_list_path: "C:/Users/user/YandexDisk/corpus_aviation/pages_list_test.json"
+  base_url: "https://ru.wikipedia.org/wiki/"
+  source_name: "ru.wikipedia.org/transport_test"

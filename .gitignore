@@ -1,0 +1,91 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# pytest cache
+.pytest_cache/
+
+# Editor directories
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Distribution/build
+build/
+dist/
+*.egg-info/
+
+# C/C++ build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.lo
+
+# CMake / Ninja cache & build files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+build.ninja
+.ninja_log
+.ninja_deps
+
+# Common generated files from cpp tests/builds
+/cpp/**/build*/
+/cpp/**/build_*/
+/cpp/**/test/build_tests/
+/cpp/**/test/test_tmp*/
+/cpp/**/idx*/
+
+# Compiled test binaries / executables
+*.exe
+
+# Index / postings / large generated artifacts
+postings.bin
+lexicon.tsv
+term_freqs*.tsv
+tokens.txt
+
+# Corpus outputs created by scripts (optional - uncomment if you prefer to not track corpus.txt)
+# corpus.txt
+# corpus_small.txt
+
+# Исполняемые файлы
+*.exe
+*.dll
+*.so
+*.bin
+*.out
+*.app
+corpus.txt
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Логи и временные файлы
+*.log
+tmp/
+temp/
